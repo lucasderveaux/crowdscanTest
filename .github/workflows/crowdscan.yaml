@@ -1,9 +1,9 @@
 name: Crowdscan
 
 on:
-  workflow_run:
-    workflows: [Blue-bike]
-    types: [failed, completed]
+  push:
+     branches:
+       - main
 
 jobs:
   Crowdscan:
