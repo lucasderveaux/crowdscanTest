@@ -1,5 +1,4 @@
 name: Crowdscan
-
 on:
   push:
      branches:
